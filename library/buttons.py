@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Name     : inline-tube-mate [ Telegram ]
 # Repo     : https://github.com/m4mallu/inine-tube-mate
-# Author   : Renjith Mangal [ https://t.me/space4renjith ]
+# Author   : Modrepos [ https://t.me/modrepos ]
 
 from urllib.parse import quote
 from presets import Presets
@@ -30,7 +30,7 @@ del_thumb = [
 
 join_channel = [
     [
-        InlineKeyboardButton('⚙ Join Updates', url='https://telegram.me/RMProjects'),
+        InlineKeyboardButton('⚙ Join Updates', url='https://telegram.me/modrepos'),
         InlineKeyboardButton('Search Inline', switch_inline_query_current_chat='')
     ]
 ]
@@ -45,7 +45,7 @@ back_button = [
 close_button = [
     [
         InlineKeyboardButton('❌ Close', callback_data='close_btn'),
-        InlineKeyboardButton('Home', callback_data='home_btn')
+        InlineKeyboardButton('🏠 Home', callback_data='home_btn')
     ]
 ]
 
